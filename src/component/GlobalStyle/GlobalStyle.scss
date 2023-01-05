@@ -8,6 +8,7 @@
     // Default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1150px;
+    --default-layout-horizontal-spacer: 24px;
 }
 
 * {
@@ -44,4 +45,16 @@ button,
 a[href] {
     color: var(--text-color);
     text-decoration: none;
+}
+
+//tippy
+body .tippy-box {
+    background-color: #666;
+}
+
+body .tippy-arrow {
+    color: #666;
+    .tippy-arrow:before {
+        border-bottom-color: #666;
+    }
 }
