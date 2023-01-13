@@ -79,7 +79,7 @@ function Header() {
         }
     };
 
-    const curentUser = true;
+    const curentUser = false;
     const userMenu = [
         {
             icon: <FontAwesomeIcon icon={faUser} />,

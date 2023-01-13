@@ -36,6 +36,7 @@ function Menu({ children, items = [], onChange }) {
         <Tippy
             delay={[0, 700]}
             interactive
+            visible
             placement="bottom-end"
             render={(attrs) => (
                 <div className={cx('menu-list')} tabIndex="-1" {...attrs}>
